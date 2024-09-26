@@ -1,0 +1,45 @@
+.circle-1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: darkcyan;
+
+}
+
+.circle-2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    z-index: 1;
+
+}
+
+.circle-3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(234, 161, 219);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+
+
+}
+
+.circle-1:hover {
+    background-color: rgb(234, 161, 219);
+}
+
+.circle-2:hover {
+   
+    background-color: lightgreen;
+}
+
+.circle-3:hover {
+    background-color: darkcyan;
+}
